@@ -1,0 +1,6 @@
+scripts:
+  start:
+    desc: Run our CLI
+    cmd: cli.ts
+    unstable: true
+    allow: ['net', 'read']
