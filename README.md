@@ -17,10 +17,7 @@ If you have `velociraptor` installer, you can run by `vr start`, otherwise you c
 vr start
 
 # with vanila deno locally
-deno run --allow-net --alow-read cli.ts
-
-# with vanila deno remote from github
-deno run --allow-net --alow-read https://raw.githubusercontent.com/marco-souza/data-structures/main/cli.ts
+deno run --allow-net --allow-read --unstable cli.ts
 ```
 
 ## References
